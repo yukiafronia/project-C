@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>○○市予約管理システム</title>
+<link href="HTMLPage1.css" rel="stylesheet" type="text/css" media="(orientation:landscape)">
+</head>
+<body>
+<h1>○○市　施設予約</h1>
+<h2>施設からのお知らせ</h2>
+       <iframe src="HTMLPage2.html" width="600" height="150"></iframe>
+       
+       <section class="sysLogin">
+       <h2>ログイン</h2>
+        <div>
+          <p><strong>施設の予約をするには利用者番号とパスワードが必要です。</strong></p>
+          <form action="/" method="post">
+             <table>
+               <tbody>
+                 <tr>
+                  <th>
+                    利用者番号：
+                  </th>
+                  <td><input type="text" placeholder="利用者番号を入力してください" name="no" value="" /></td>
+                </tr>
+                <tr>
+                  <th>
+                    パスワード：
+                  </th>
+                 <td><input type="password" placeholder="パスワードを入力してください" name="password" /></td>
+                  
+                  <td><p><a href="">パスワードを忘れた方はこちら</a></p></td>
+				   </tr>
+                 
+                 <tr class="navBtn">
+                   <td colspan="3">
+                   <input type="hidden" name="location" value="" />
+                   <input type="hidden" name="csrf" value="b004196fad9937e047701bcb047781e7" />
+                   <input type="reset" value="クリア" name="" class="btnClear js_clear_form" />
+                   <input type="submit" value="ログイン" name="" class="btnLogin" />
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+        </div>
+      </section>
+</body>
+</html>
