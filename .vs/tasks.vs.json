@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "タスク-project-B",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskName": "タスク-HTMLPage1",
+      "appliesTo": "HTMLPage1.html",
+      "type": "launch"
+    }
+  ]
+}
