@@ -1,0 +1,12 @@
+﻿p.systeminformation_box {
+    height: 6.8em;
+    overflow: auto;
+    border: gray,5px;
+    background-color: honeydew;
+}
+p.information_box{
+    height:6.8em;
+    overflow:auto;
+    border:gray,5px;
+    background-color:lightyellow;
+}
