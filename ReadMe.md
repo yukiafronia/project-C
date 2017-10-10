@@ -34,5 +34,5 @@
  + 使用言語について
   html , css , php , javascript , SQL  
   
-+ IDEについて  
+ + IDEについて  
   Visual Studioを利用し何とか時短できるよう目標とするが、文字コードの変更等を行わない限りどのエディタIDEを使用してもかまわない。  
