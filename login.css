@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 html{
   min-height :100%;
 }
@@ -12,20 +11,3 @@ body{
   border-radius: 16px;
   background: rgba(255,255,255,0.8);
 }
-=======
-﻿html {
-    min-height: 100%;
-}
-
-body {
-    background: linear-gradient(#e8bb31,#ffffff);
-}
-
-.login {
-    margin: 64px auto 0 auto;
-    padding: 32px;
-    max-width: 800px;
-    border-radius: 16px;
-    background: rgba(255,255,255,0.8);
-}
->>>>>>> a40891e72fcdc1d24a0d64d0eb5c4bc1bca47acd
