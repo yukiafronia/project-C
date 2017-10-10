@@ -3,14 +3,25 @@
 <head>
     <meta charset="utf-8" />
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
 </head>
 <body>
-    <h3>ログイン</h3>
-    <p>利用者IDとパスワードを入力して「ログイン」ボタンを押してください</p>
-    <br />
-    <h4>利用者ID<input id="Text1" type="text" /></h4>
-    <h4>パスワード<input id="Password1" type="password" /></h4>
-    <br />
-    <h5>？パスワードを忘れた方はこちら</h5>
+    <div class="login">
+        <h1>ログイン画面</h1>
+        <form methot="GET" action="login.php">
+            <div class="submit">
+                <p>
+                    <label for="ID_name">ID</label><br>
+                    <input type="text" name="ID" placeholder="IDを入力してください" autofocus required>
+                </p>
+                <p>
+                    <label>PASSWORD</label><br>
+                    <input type="password" name="PW" placeholder="PWを入力してください" required>
+                </p>
+                <p><input type="submit" value="送信"></p>
+                <p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
