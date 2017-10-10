@@ -1,12 +1,35 @@
-﻿p.systeminformation_box {
+html{
+    min-height :100%;
+}
+body{
+    background:linear-gradient(#89e7ff,#ffffff);
+}
+img.yoyaku{
+  width: auto;
+  height: 70px;
+}
+p.systeminformation_box {
     height: 6.8em;
     overflow: auto;
-    border: gray,5px;
     background-color: honeydew;
+    border-radius: 16px;
+    max-width: 800px;
+    padding-left: 6px;
+    box-shadow: 3px 3px 5px 3px #504e4e;
 }
 p.information_box{
-    height:6.8em;
-    overflow:auto;
-    border:gray,5px;
-    background-color:lightyellow;
+  height: 6.8em;
+  overflow: auto;
+  border: gray,5px;
+  background-color: lightyellow;
+  border-radius: 16px;
+  max-width: 800px;
+  padding-left: 6px;
+  box-shadow: 3px 3px 5px 3px #504e4e;
+}
+h1{
+  border-bottom-style: ridge;
+}
+h4{
+  border-bottom-style: ridge;
 }
