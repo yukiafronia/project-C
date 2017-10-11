@@ -39,5 +39,5 @@
   
  + 現在の進捗について (画像)  
  ![indexページ](https://imgur.com/a/HY62R "index")  
- ![loginページ](https://imgur.com/a/DhY8C "login")  
- ![施設予約ページ](https://imgur.com/a/Lg0yJ "施設予約")
+ ![loginページ](https://imgur.com/a/DhY8C "login"）  
+ ![施設予約ページ](https://imgur.com/a/Lg0yJ "施設予約")  
