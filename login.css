@@ -1,9 +1,9 @@
-html {
+﻿html {
     min-height: 100%;
 }
 
 body {
-    background: linear-gradient(#e8bb31, #ffffff);
+    background: linear-gradient(#e8bb31,#ffffff);
 }
 
 .login {
@@ -11,5 +11,5 @@ body {
     padding: 32px;
     max-width: 800px;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255,255,255,0.8);
 }
