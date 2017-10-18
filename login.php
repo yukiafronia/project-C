@@ -20,6 +20,7 @@
     <?php if($Error): ?>
     <div class="login">
         <?php
+            require("conect_DB.php");
               echo 'ようこそ ',$id,' 様、画面が変わりますのでしばらくお待ち下さい';
         ?>
     </div>
