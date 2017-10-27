@@ -29,5 +29,6 @@
  Visual Studioを利用し何とか時短できるよう目標とするが、文字コードの変更等を行わない限りどのエディタIDEを使用してもかまわない。  
 
 + 現在の進捗について (画像)  
- indexページ　https://imgur.com/a/HY62R  　 loginページ　https://imgur.com/a/DhY8C
+ indexページ　https://imgur.com/a/HY62R  
+ loginページ　https://imgur.com/a/DhY8C1  
  施設予約ページ　https://imgur.com/a/Lg0yJ  
