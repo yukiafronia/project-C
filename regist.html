@@ -1,0 +1,381 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>施設予約利用登録画面</title>
+    
+    <style type="text/css">
+<!--
+
+/**************************/
+/* BASIC_TAG_STYLE        */
+/**************************/
+body{
+  font-family:"ＭＳ Ｐゴシック",Osaka, sans-serif;
+  font-size:0.8em;
+  margin:0px;
+  padding:0px;
+}
+
+pre {
+  font-family:"ＭＳ ゴシック",Osaka, sans-serif;
+  font-size:1em;
+  margin:0px;
+  padding:0px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight:bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/**************************/
+/* HM_DEFAULT_CLASS_STYLE */
+/**************************/
+
+/* area classes */
+.contents{
+  background-color:#FFFFF9;
+  border-top:solid 1px #999999;
+  border-left:solid 1px #999999;
+  border-right:solid 1px #999999;
+  border-bottom:solid 1px #999999;
+  padding:10px;
+}
+
+.message {
+  margin-left:4px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+
+/* title classes */
+.hm_title {
+  font-size: 1em;
+  font-weight: normal
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* form_parts classes */
+.textmono{ width:350px; }
+.textareamono{ width:350px; }
+.radiomono{}
+.checkboxmono{}
+.selectmono{}
+.optionmono{}
+.hm_submit_btn{}
+.hm_comment{}
+
+
+/* table_parts classes */
+table.inputform{
+  border-collapse:collapse;
+}
+
+td.column {
+  background-color:#F1F1F1;
+  border-left:solid 4px #666699;
+  border-bottom:solid 1px #AAA;
+  border-right:solid 1px #AAA;
+  border-top:solid 1px #AAA;
+  border-collapse:collapse;
+  white-space:nowrap;
+}
+
+td.data {
+  background-color:#FFFFFF;
+  border:solid 1px #AAA;
+  border-collapse:collapse;
+}
+
+td.submit {
+  background-color:#F6F6EE;
+  border-left:solid 4px #990066;
+  border-bottom:solid 1px #AAA;
+  border-right:solid 1px #AAA;
+  border-top:solid 1px #AAA;
+  border-collapse:collapse;
+}
+
+
+/* other_page_parts_classes */
+.required{
+  font-family:"ＭＳ Ｐゴシック",Osaka, sans-serif;
+  font-size:0.8em;
+  margin:0px;
+  padding:0px;
+  font-weight:bold;
+  color:#990000;
+}
+
+ul.error {}
+
+li.error {
+  margin:0px;
+  /*list-style-type:none;*/
+  font-size:1em;
+  list-style-image: url(/img/caution.gif);
+  list-style-position:outside;
+  font-weight:bold;
+  color:#990000;
+}
+
+.backBtn{
+  color:#999999;
+  font-size:12px;
+  margin-top:10px;
+  padding-top:4px;
+  padding-left:23px;
+  background-image: url("/img/backLink.gif");
+  background-repeat:no-repeat;
+  white-space:nowrap;
+}
+
+.hm_backBtn_pos{
+  margin-top:10px;
+}
+
+.header{
+  font-size:12px;
+  background-color:#EEEEEE;
+}
+
+.footer{
+  font-size:12px;
+  background-color:#EEEEEE;
+}
+
+/* link_style */
+.hm_page_move_link {}
+
+
+/**************************/
+/* FORMPART_CUSTOM_STYLE  */
+/**************************/
+
+/* input_tag_id_style */
+#mailaddr {}
+#propval_1 {}
+#propval_2 {}
+#propval_3 {}
+#propval_4 {}
+#propval_5 {}
+#propval_6 {}
+#propval_7 {}
+#propval_8 {}
+
+
+/* comment_id_style */
+#hm_comment_mailaddr {}
+#hm_comment_1 {}
+#hm_comment_2 {}
+#hm_comment_3 {}
+#hm_comment_4 {}
+#hm_comment_5 {}
+#hm_comment_6 {}
+#hm_comment_7 {}
+#hm_comment_8 {}
+
+#hm_required_msg
+#hm_upper_msg
+#hm_lower_msg
+
+-->
+</style>
+
+</head>
+<body>
+    <table width="100%">
+        <tr>
+            <td class="header"><span style="margin-left:20px;">利用者登録フォーム</span></td>
+        </tr>
+        <tr>
+            <td>
+                <div style="margin:20px;">
+                    <div class="contents">
+                        <h2 class="hm_title">施設予約利用登録画面</h2>
+                        <div class="meesage" id=hm_upper_msg>
+                            &nbsp;<span class="required">必須</span>は入力必須項目です。
+                        </div>
+                        <form action="regist.php" method="post" autocomplete="off" id="inputForm">
+
+                            <input type="hidden" name="action" value="R3" />
+                            <input type="hidden" name="a" value="696" />
+                            <input type="hidden" name="f" value="145" />
+                            <input type="hidden" name="g" value="73" />
+                            <input type="hidden" name="s" value="" />
+                            <input type="hidden" name="uniqid" value="ede16ca0-186b-4521-ae5f-3817be112d8d" />
+
+                            <table class="inputform" cellpadding="4" cellspacing="1">
+
+                                <tr>
+                                    <td class="colum">メールアドレス&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="text" name="mailaddress" value="" class="textmono" id="mailaddress" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">お名前&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="text" name="propval_1" value="" class="textmono" id="propval_1" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">お名前（フリガナ）&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="text" name="propval_2" value="" class="textmono" id="propval_2" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">性別&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="radio" name="propval_3[]" value="男" class="radiomono" id="propval_3_1" />男
+                                                    <td>
+                                                        <input type="radio" name="propval_3[]" value="女" class="radiomono" id="propval_3_2" />女
+                                                        </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">郵便番号&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <div class="hm_comment" id="hm_comment4">数字とハイフンのみ（すべて半角）で入力してください</div>
+                                        <input type="text" name="propval_4" value="" class="textmono" id="propval_4" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">都道府県&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <select name="propval_5[]" class="selectmono" id="propval5">
+                                            <option value="" class="optionmono" id="propval5_1">選択してください</option>
+                                            <option value="北海道" class="optionmono" id="optval5_2">北海道</option>
+                                            <option value="青森県" class="optionmono" id="optval5_3">青森県</option>
+                                            <option value="岩手県" class="optionmono" id="optval5_4">岩手県</option>
+                                            <option value="宮城県" class="optionmono" id="optval5_5">宮城県</option>
+                                            <option value="秋田県" class="optionmono" id="optval5_6">秋田県</option>
+                                            <option value="山形県" class="optionmono" id="optval5_7">山形県</option>
+                                            <option value="福島県" class="optionmono" id="optval5_8">福島県</option>
+                                            <option value="茨城県" class="optionmono" id="optval5_9">茨城県</option>
+                                            <option value="栃木県" class="optionmono" id="optval5_10">栃木県</option>
+                                            <option value="群馬県" class="optionmono" id="optval5_11">群馬県</option>
+                                            <option value="埼玉県" class="optionmono" id="optval5_12">埼玉県</option>
+                                            <option value="千葉県" class="optionmono" id="optval5_13">千葉県</option>
+                                            <opption value="東京都" class="optionmono" id="optval5_14">東京都</opption>
+                                            <option value="神奈川県" class="optionmono" id="optval5_15">神奈川県</option>
+                                            <option value="山梨県" class="optionmono" id="optval5_16">山梨県</option>
+                                            <option value="長野県" class="optionmono" id="optval5_17">長野県</option>
+                                            <option value="新潟県" class="optionmono" id="optval5_18">新潟県</option>
+                                            <option value="富山県" class="optionmono" id="optval5_19">富山県</option>
+                                            <option value="石川県" class="optionmono" id="optval5_20">石川県</option>
+                                            <option value="福井県" class="optionmono" id="optval5_21">福井県</option>
+                                            <option value="岐阜県" class="optionmono" id="optval5_22">岐阜県</option>
+                                            <option value="静岡県" class="optionmono" id="optval5_23">静岡県</option>
+                                            <option value="愛知県" class="optionmono" id="optval5_24">愛知県</option>
+                                            <option value="三重県" class="optionmono" id="optval5_25">三重県</option>
+                                            <option value="滋賀県" class="optionmono" id="optval5_26">滋賀県</option>
+                                            <option value="京都府" class="optionmono" id="optval5_27">京都府</option>
+                                            <option value="大阪府" class="optionmono" id="optval5_28">大阪府</option>
+                                            <option value="兵庫県" class="optionmono" id="optval5_29">兵庫県</option>
+                                            <option value="奈良県" class="optionmono" id="optval5_30">奈良県</option>
+                                            <option value="和歌山県" class="optionmono" id="optval5_31">和歌山県</option>
+                                            <option value="鳥取県" class="optionmono" id="optval5_32">鳥取県</option>
+                                            <option value="島根県" class="optionmono" id="optval5_33">島根県</option>
+                                            <option value="岡山県" class="optionmono" id="optval5_34">岡山県</option>
+                                            <option value="広島県" class="optionmono" id="optval5_35">広島県</option>
+                                            <option value="山口県" class="optionmono" id="optval5_36">山口県</option>
+                                            <option value="徳島県" class="optionmono" id="optval5_37">徳島県</option>
+                                            <option value="香川県" class="optionmono" id="optval5_38">香川県</option>
+                                            <option value="愛媛県" class="optionmono" id="optval5_39">愛媛県</option>
+                                            <option value="高知県" class="optionmono" id="optval5_40">高知県</option>
+                                            <option value="福岡県" class="optionmono" id="optval5_41">福岡県</option>
+                                            <option value="佐賀県" class="optionmono" id="optval5_42">佐賀県</option>
+                                            <option value="長崎県" class="optionmono" id="optval5_43">長崎県</option>
+                                            <option value="熊本県" class="optionmono" id="optval5_44">熊本県</option>
+                                            <option value="大分県" class="optionmono" id="optval5_45">大分県</option>
+                                            <option value="宮崎県" class="optionmono" id="optval5_46">宮崎県</option>
+                                            <option value="鹿児島県" class="optionmono" id="optval5_47">鹿児島県</option>
+                                            <option value="沖縄県" class="optionmono" id="optval5_48">沖縄県</option>
+                                            <option value="その他" class="optionmono" id="optval5_49">その他</option>
+
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">市区町村&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="text" name="propval_6" value="" class="textmono" id="propval_6" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">番地・建物名&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="text" name="propval_7" value="" class="textmono" id="propval_7" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">ご連絡先（固定もしくは携帯）</td>
+                                    <td class="data">
+                                        <div class="hm_comment" id="hm_comment8">数字とハイフンのみ（すべて半角）で入力してください。</div>
+                                        <input type="text" name="propval_8" value="" class="textmono" id="propval_8" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">生年月日&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="text" namme="propval_13" value="" class="textmono" id="propval_13" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">※法人の方のみ  会社名&nbsp;</td>
+                                    <td class="data">
+                                        <input type="text" name="company" value="" class="textmono" id="company" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="colum">※法人の方のみ  部署名&nbsp;</td>
+                                    <td class="data">
+                                        <input type="text" name="department_name" value="" class="textmono" id="department_name" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="password">パスワード&nbsp;<span class="required">（必須）</span></td>
+                                    <td class="data">
+                                        <input type="password" name="password" value="" class="textmono" id="password" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="submit" colspan="2">
+                                        <input type="submit" name="button" value="登録" class="hm_submit_btn" />
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

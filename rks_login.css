@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+.adminbody{
+  background: #dceaff;
+}
+
+.oembody{
+  background: #dceaff;
+}
+
+.userbody{
+  background: #dceaff;
+}
+
+#wrap{
+  position: relative;
+  margin: auto;
+  padding-top: 10px;
+  text-align:center;
+  width:541px;
+  height: 334px;
+  background: url(/img/base_login.jpg) no-repeat;
+/*
+  padding-top: 18px;
+  text-align:center;
+  width:541px;
+  height: 334px;
+*/
+  }
+
+#login-box {
+  border-bottom: solid 1px #cbcbcb;
+  margin: 0 24px 0 17px;
+  padding-bottom: 38px;
+}
+
+#oem-login-box {
+  border-bottom: solid 1px #cbcbcb;
+  margin: 0 24px 0 17px;
+  padding-bottom: 23px;
+}
+
+.login-ul{
+  list-style:none;
+  line-height:1.8;
+  margin:10px 60px 0 60px;
+  padding-bottom: 10px;
+  font-size: 120%;
+  }
+
+.login-li {
+    margin-bottom: 15px;
+}
+
+.login-li input {
+   BORDER-BOTTOM: #dfdfdf 1px solid;
+     BORDER-LEFT: #7b7b7b 2px solid;
+     PADDING-BOTTOM: 1px;
+     PADDING-LEFT: 3px;
+     WIDTH: 11em;
+     PADDING-RIGHT: 3px;
+     BORDER-TOP: #7b7b7b 2px solid;
+     BORDER-RIGHT: #dfdfdf 1px solid;
+     PADDING-TOP: 1px
+}
+
+
+/*ログインボタン
+------------------------------------- */
+.loginbtn {
+  width: 211px;
+  height: 32px;
+  cursor:pointer;
+  vertical-align:bottom;
+  border: 0;
+  margin-left:20px;
+  background: url(/img/login_btn.gif) no-repeat 0px 0px;
+}
+
+
+
+
+
+/*コピーライト
+------------------------------------- */
+#copyr{
+    font-style:normal;
+    color:#84959f;
+    height: 37px;
+    line-height: 37px;
+    text-align: left;
+    font-size:80%;
+    }
+
+#copyr:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+#copyr{
+display:inline-table;
+min-height:1%;
+}
+/* \*/
+html #copyr{
+* height:1%;
+}
+#copyr{
+display:block;
+}
+
+#copyr img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+#footer {
+  background-image:url(/img/login_haihai_footer_bg.jpg);
+  height: 31px;
+    line-height: 31px;
+    font-size:100%;
+    padding-left: 10px;
+}
+
+#footer p {
+  color:#ffffff;
+}
+
+#footer_login p {
+  padding: 0px 0px 0px 10px;
+  margin:0px;
+  color:#ffffff;
+}
+
+#footer_login {
+  background-image: url(/img/login_haihai_footer_bg.jpg);
+  position: absolute;
+  line-height: 31px;
+  width: 100%;
+  bottom: 0px;
+  height: 31px;
+  font-size: 100%
+  padding:00px;
+  margin:0px;
+}
+clear{
+ clear: both; 
+}
+
+#messages_login {
+height: 40px;
+padding-top: 15px;
+}
