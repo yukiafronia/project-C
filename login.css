@@ -8,6 +8,7 @@ body {
 
 .login {
     margin: 64px auto 0 auto;
+    box-shadow: 5px 5px 10px #504e4e;
     padding: 32px;
     max-width: 800px;
     border-radius: 16px;
