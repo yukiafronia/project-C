@@ -3,12 +3,12 @@ var clndr = {};
 if (!window.console) {
     window.console = {
         log: function (whatever) {
-          // sad face.
+            // sad face.
         }
     };
 }
 
-$( function() {
+$(function () {
     // Set up the events array
     var eventsArray = [
         {

@@ -1,5 +1,5 @@
 $(function () {
-    $('#accordion li').click(function() {
+    $('#accordion li').click(function () {
         $(this).next('ul').slideToggle();
     });
 });

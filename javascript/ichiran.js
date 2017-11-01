@@ -1,4 +1,4 @@
-﻿document.createElement("nav") 
+﻿document.createElement("nav")
 
 var amazonmenu = {
 
@@ -18,18 +18,18 @@ var amazonmenu = {
             $li.data().showhidetimer = setTimeout(function () {
                 $li.addClass('selected')
                 $li.data('$submenu')
-					.data('fullyvisible', false)
-					.css({ zIndex: amazonmenu.menuzindex++ })
-					.fadeIn(setting.animateduration, function () {
-					    $(this).data('fullyvisible', true)
-					})
+                    .data('fullyvisible', false)
+                    .css({zIndex: amazonmenu.menuzindex++})
+                    .fadeIn(setting.animateduration, function () {
+                        $(this).data('fullyvisible', true)
+                    })
             }, this.setting.showhidedelay[0])
         }
         else {
             $li.data().showhidetimer = setTimeout(function () {
                 $li.removeClass('selected')
                 $li.data('$submenu').stop(true, true).fadeOut(setting.animateduration)
-                var $subuls = $li.data('$submenu').find('.issub').css({ display: 'none' })
+                var $subuls = $li.data('$submenu').find('.issub').css({display: 'none'})
                 if ($subuls.length > 0) {
                     $subuls.data('$parentli').removeClass('selected')
                 }
@@ -48,29 +48,29 @@ var amazonmenu = {
             var $parentli = $(this).parent('li')
             var $dropdown = $(this)
             $parentli
-				.addClass('hassub')
-				.data({ $submenu: $dropdown, showhidetimer: null })
-				.on('mouseenter click', function (e) {
-				    amazonmenu.showhide($(this), 'show', setting)
-				})
-				.on('click', function (e) {
-				    e.stopPropagation()
-				})
-				.children('a').on('click', function (e) {
-				    e.preventDefault() 
-				})
+                .addClass('hassub')
+                .data({$submenu: $dropdown, showhidetimer: null})
+                .on('mouseenter click', function (e) {
+                    amazonmenu.showhide($(this), 'show', setting)
+                })
+                .on('click', function (e) {
+                    e.stopPropagation()
+                })
+                .children('a').on('click', function (e) {
+                e.preventDefault()
+            })
             $dropdown
-				.addClass('issub')
-				.data({ $parentli: $parentli })
-				.on('mouseleave' + addevtstring(setting.hidemenuonclick || amazonmenu.touchenabled, 'click'), function (e) {
-				    if ($(this).data('fullyvisible') == true) {
-				        amazonmenu.showhide($(this).data('$parentli'), 'hide', setting)
-				    }
-				    if (e.type == 'click') {
-				        e.stopPropagation()
-				    }
-				})
-        }) 
+                .addClass('issub')
+                .data({$parentli: $parentli})
+                .on('mouseleave' + addevtstring(setting.hidemenuonclick || amazonmenu.touchenabled, 'click'), function (e) {
+                    if ($(this).data('fullyvisible') == true) {
+                        amazonmenu.showhide($(this).data('$parentli'), 'hide', setting)
+                    }
+                    if (e.type == 'click') {
+                        e.stopPropagation()
+                    }
+                })
+        })
         $topul.on('click', function (e) {
             if ($(this).data('fullyvisible') == true) {
                 amazonmenu.showhide($(this).children('li.hassub.selected'), 'hide', setting)
