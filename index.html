@@ -1,14 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
     <title>公共施設予約システムへようこそ</title>
-    <!--<style>
-    .map{
-    	width: 700px;
-    	height: 400px;
-    }
-  </style>-->
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
 </head>
 <body>
@@ -53,11 +48,23 @@
         上記時間は、システムへのアクセスが出来なくなりますのでご注意ください。
     </p>
 </div>
-<div id="map" class="map"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEXNpCBFCbeK7F-DOdlU1eqPCQiYmSgpM&callback=initMap"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="./javascript/googlemap.js">
+<div id="map">
+    <script>
+        var map;
 
-</script>
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), { // #sampleに地図を埋め込む
+                center: { // 地図の中心を指定
+                    lat: 34.7019399, // 緯度
+                    lng: 135.51002519999997 // 経度
+                },
+                zoom: 19 // 地図のズームを指定
+            });
+        }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtEdxaxy74Iyh_BKep6T__8XMZq8POXnw&callback=initMap"
+            async defer></script>
+</div>
 </body>
 </html>
