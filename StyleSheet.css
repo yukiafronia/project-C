@@ -24,10 +24,11 @@ box-shadow: 0px 1px 5px 0px #504e4e;
 div.header{
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 20px;
   background-color: rgb(255, 255, 255);
   max-width: 400px;
   border-radius: 16px;
-  box-shadow: 3px 3px 5px 3px #504e4e;
+  box-shadow: inset 0px 0px 10px 2px #504e4e;
 }
 img.yoyaku {
     width: auto;
@@ -41,7 +42,7 @@ p.systeminformation_box {
     border-radius: 16px;
     max-width: 800px;
     padding-left: 6px;
-    box-shadow: 3px 3px 5px 3px #504e4e;
+    box-shadow: inset 0px 0px 10px 2px #504e4e;
 }
 
 p.information_box {
@@ -52,9 +53,12 @@ p.information_box {
     border-radius: 16px;
     max-width: 800px;
     padding-left: 6px;
-    box-shadow: 3px 3px 5px 3px #504e4e;
+    box-shadow: inset 0px 0px 10px 2px #504e4e;
 }
-
+.map{
+  height: 300px;
+  width: 1000px;
+}
 h1 {
     border-bottom-style: ridge;
 }
