@@ -3,7 +3,7 @@ $(function(){
         opacity : 0
     });
 
-    $(".contents").on('load',function(){
+    $(".contents").on('click',function(){
         alert("click by");
     });
 
