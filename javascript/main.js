@@ -52,7 +52,6 @@ $(".bottom2").on('click',function(){
     $(window).on('load',function(){
         $(".detail").animate({
                 opacity : 1
-
             },
             500
         );

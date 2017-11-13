@@ -1,4 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+body{
+      background: linear-gradient(#89e7ff, #ffffff);
+}
+
+.menu{
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  height: 300px;
+  opacity : 0;
+}
+#bottom{
+  height: 300px;
+    float: left;
+    /*margin:20px;*/
+    width: 25%;
+}
 
 .clearfix:after {
     content: ".";
@@ -70,6 +87,7 @@ p {
     max-width: 600px;
     font-family: 'Droid Sans Mono';
     font-size: 14px;
+    background-color: white;
 }
 
 .cal1 .clndr .clndr-controls {
