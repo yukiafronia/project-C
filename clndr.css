@@ -16,6 +16,7 @@ body{
     /*margin:20px;*/
     width: 25%;
     -webkit-transition: 0.5s;
+    z-index:3;
 }
 
 .clearfix:after {

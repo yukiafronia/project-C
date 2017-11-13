@@ -1,7 +1,4 @@
 $(function(){
-    $(".detail").css({
-        opacity : 0
-    });
 
 $(".bottom").on('click',function(){
 
@@ -45,7 +42,32 @@ $(".bottom2").on('click',function(){
         setTimeout(function(){
        window.location.href = "./How_to_use.html";
      },600);
+
 });
+
+$("#login").on('click',function(){
+
+      $(".detail").animate({
+              opacity : 0
+          },
+          700
+      );
+        $({deg:0}).animate({deg:360},{
+              duration:1300,
+              progress:function() {
+        				$('.detail').css({
+        					transform:'rotateY(' + this.deg + 'deg)'
+        				});
+        			},
+            },
+            500
+          );
+        setTimeout(function(){
+       window.location.href = "./login.html";
+     },600);
+
+});
+
 
 
 

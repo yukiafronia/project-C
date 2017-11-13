@@ -18,7 +18,10 @@ h1.title {
 }
 
 h2.head{
-  height:40px
+  height:40px;
+}
+.detail{
+  opacity : 0;
 }
 
 .contents {
