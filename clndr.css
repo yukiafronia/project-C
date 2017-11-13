@@ -15,6 +15,7 @@ body{
     float: left;
     /*margin:20px;*/
     width: 25%;
+    -webkit-transition: 0.5s;
 }
 
 .clearfix:after {
