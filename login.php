@@ -9,31 +9,32 @@
 <body>
 <?php
 //ログイン情報の保存
-$user = 'testuser';
-$password = 'koke9665';
-$dbName = 'testdb';
-$host = 'localhost:8889';
+$user = 'root';
+$password = 'root';
+$dbName = 'test';
+$host = 'localhost';
 $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
 
 try {
     // pdoを通して支持
-    $pdo = new PDO($dsn, $user, $password);
-    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "データベース{dbName}に接続しました";
-    $pdo = NULL;
+    $pdo = new pdo($dsn, $user, $password);
+    //$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    //$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo 'データベース' . $dbName . 'に接続しました';
+    // $pdo = NULL;
 
     //SQL文の取り出し
-    $sql = "SELECT * FROM user";
+    $sql = 'select * from test';
     //プリペアステート無効
-    $stm = $pdo->prepare($sql);
-    $stm->execute();
-    $result = $stm->fetchAll(PDO::FETCH_ASSOC);
-    echo "otinpoS";
+    //$stm = $pdo->prepare($sql);
+    //$stm->execute();
+    $stm = $pdo->query($sql);
+    //$result = $stm->fetchAll(PDO::FETCH_ASSOC);
+    //echo "otinpoS";
     //空想配列を出して要素の取り出し
-    foreach ($result as $row) {
-        echo "<th>", es($result['name']), "</td>";
-        echo "<th>", es($result['password']), "</td>";
+    foreach ($stm as $row) {
+        echo "<th>", $row['username'], "</td>";
+        echo "<th>", $row['password'], "</td>";
     }
 } catch (Exception $e) {
     //エラー処理
@@ -47,13 +48,13 @@ try {
 $id = $_POST["ID"];
 $pw = $_POST["PW"];
 $Error = fales;
-if ($id == "114514" && $pw == "810") {
+if ($id == "koke9665" && $pw == "koke9665") {
     $Error = true;
 } else {
     $Error = false;
 }
 ?>
-<?php if ($Error): ?>
+<?php if (isset($Error)): ?>
     <div class="login">
         <?php
         require_once("conect_DB.php");
