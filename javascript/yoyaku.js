@@ -47,7 +47,7 @@ $(".sisetu").on('mouseout',function(){
         },500
       );
     setTimeout(function(){
-    window.location.href = "./ichiran.html";
+    window.location.href = "./syubetu_yoyaku.html";
   },350);
   },
 );
@@ -125,7 +125,7 @@ $(".ryoukin").on('mouseout',function(){
     );
 
     //移動処理
-      var movePoint = -320 ;    // 移動位置
+      var movePoint = -150 ;    // 移動位置
       var duration = 300 ;      // 移動時間
            console.log('距離:',movePoint,'時間:',duration)
   $(".ryoukin").css({
@@ -169,7 +169,7 @@ $(".tatemono").on('mouseout',function(){
     );
 
     //移動処理
-      var movePoint = -320 ;    // 移動位置
+      var movePoint = -150 ;    // 移動位置
       var duration = 300 ;      // 移動時間
            console.log('距離:',movePoint,'時間:',duration)
   $(".tatemono").css({
