@@ -30,6 +30,7 @@ try {
     $stm->execute();
     $result = $stm->fetchAll(PDO::FETCH_ASSOC);
     echo "otinpoS";
+    //空想配列を出して要素の取り出し
     foreach ($result as $row) {
         echo "<th>", es($result['name']), "</td>";
         echo "<th>", es($result['password']), "</td>";
@@ -43,8 +44,8 @@ try {
 ?>
 <?php
 //ログイン処理
-$id = $_GET["ID"];
-$pw = $_GET["PW"];
+$id = $_POST["ID"];
+$pw = $_POST["PW"];
 $Error = fales;
 if ($id == "114514" && $pw == "810") {
     $Error = true;
