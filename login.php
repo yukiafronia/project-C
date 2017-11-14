@@ -25,7 +25,7 @@ try {
 
     //SQL文の取り出し
     $sql = "SELECT * FROM user";
-    //エラーおよびpdoの比較
+    //プリペアステート無効
     $stm = $pdo->prepare($sql);
     $stm->execute();
     $result = $stm->fetchAll(PDO::FETCH_ASSOC);
@@ -35,12 +35,14 @@ try {
         echo "<th>", es($result['password']), "</td>";
     }
 } catch (Exception $e) {
+    //エラー処理
     echo '<span class="error">エラーがありました</span><br>';
     echo $e->getMessage();
     exit();
 }
 ?>
 <?php
+//ログイン処理
 $id = $_GET["ID"];
 $pw = $_GET["PW"];
 $Error = fales;
