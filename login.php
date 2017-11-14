@@ -8,6 +8,7 @@
 </head>
 <body>
   <?php
+  //ログイン情報の保存
   $user = 'testuser';
   $password = 'koke9665';
   $dbName = 'testdb';
@@ -15,14 +16,16 @@
   $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
 
   try {
+    // pdoを通して支持
       $pdo = new PDO($dsn, $user, $password);
       $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
       $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       echo "データベース{dbName}に接続しました";
       $pdo = NULL;
 
-
+  //SQL文の取り出し
   $sql = "SELECT * FROM user";
+  //エラーおよびpdoの比較
   $stm = $pdo->prepare($sql);
   $stm->execute();
   $result = $stm ->fetchAll(PDO::FETCH_ASSOC);
