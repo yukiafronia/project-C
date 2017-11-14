@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -12,7 +11,9 @@
 </head>
 <body>
 <div class="content">
-    <div class="wrapper"><canvas id="chart-0"></canvas></div>
+    <div class="wrapper">
+        <canvas id="chart-0"></canvas>
+    </div>
     <div class="toolbar">
         <button onclick="randomize(this)">Randomize</button>
         <button onclick="addDataset(this)">Add Dataset</button>
@@ -76,22 +77,22 @@
 
                 borderColor: colorize.bind(null, true),
 
-                borderWidth: function(context) {
+                borderWidth: function (context) {
                     return Math.min(Math.max(1, context.datasetIndex + 1), 8);
                 },
 
                 hoverBackgroundColor: 'transparent',
 
-                hoverBorderColor: function(context) {
+                hoverBorderColor: function (context) {
                     return utils.color(context.datasetIndex);
                 },
 
-                hoverBorderWidth: function(context) {
+                hoverBorderWidth: function (context) {
                     var value = context.dataset.data[context.dataIndex];
                     return Math.round(8 * value.v / 1000);
                 },
 
-                radius: function(context) {
+                radius: function (context) {
                     var value = context.dataset.data[context.dataIndex];
                     var size = context.chart.width;
                     var base = Math.abs(value.v) / 1000;
@@ -108,7 +109,7 @@
     });
 
     function randomize() {
-        chart.data.datasets.forEach(function(dataset) {
+        chart.data.datasets.forEach(function (dataset) {
             dataset.data = generateData()
         });
         chart.update();

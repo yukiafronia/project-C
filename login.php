@@ -7,39 +7,39 @@
     <link rel="stylesheet" type="text/css" href="login.css"/>
 </head>
 <body>
-  <?php
-  //ログイン情報の保存
-  $user = 'testuser';
-  $password = 'koke9665';
-  $dbName = 'testdb';
-  $host = 'localhost:8889';
-  $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
+<?php
+//ログイン情報の保存
+$user = 'testuser';
+$password = 'koke9665';
+$dbName = 'testdb';
+$host = 'localhost:8889';
+$dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
 
-  try {
+try {
     // pdoを通して支持
-      $pdo = new PDO($dsn, $user, $password);
-      $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-      echo "データベース{dbName}に接続しました";
-      $pdo = NULL;
+    $pdo = new PDO($dsn, $user, $password);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    echo "データベース{dbName}に接続しました";
+    $pdo = NULL;
 
-  //SQL文の取り出し
-  $sql = "SELECT * FROM user";
-  //エラーおよびpdoの比較
-  $stm = $pdo->prepare($sql);
-  $stm->execute();
-  $result = $stm ->fetchAll(PDO::FETCH_ASSOC);
-  echo "otinpoS";
-    foreach($result as $row){
-    echo "<th>", es($result['name']),"</td>";
-      echo "<th>", es($result['password']),"</td>";
+    //SQL文の取り出し
+    $sql = "SELECT * FROM user";
+    //エラーおよびpdoの比較
+    $stm = $pdo->prepare($sql);
+    $stm->execute();
+    $result = $stm->fetchAll(PDO::FETCH_ASSOC);
+    echo "otinpoS";
+    foreach ($result as $row) {
+        echo "<th>", es($result['name']), "</td>";
+        echo "<th>", es($result['password']), "</td>";
     }
-  } catch (Exception $e) {
-      echo '<span class="error">エラーがありました</span><br>';
-      echo $e->getMessage();
-      exit();
-  }
-  ?>
+} catch (Exception $e) {
+    echo '<span class="error">エラーがありました</span><br>';
+    echo $e->getMessage();
+    exit();
+}
+?>
 <?php
 $id = $_GET["ID"];
 $pw = $_GET["PW"];

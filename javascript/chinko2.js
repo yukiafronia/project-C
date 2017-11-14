@@ -10,7 +10,7 @@ window.chartColors = {
     grey: 'rgb(201, 203, 207)'
 };
 
-(function(global) {
+(function (global) {
     var Months = [
         'January',
         'February',
@@ -43,11 +43,11 @@ window.chartColors = {
 
     Samples.utils = {
         // Adapted from http://indiegamr.com/generate-repeatable-random-numbers-in-js/
-        srand: function(seed) {
+        srand: function (seed) {
             this._seed = seed;
         },
 
-        rand: function(min, max) {
+        rand: function (min, max) {
             var seed = this._seed;
             min = min === undefined ? 0 : min;
             max = max === undefined ? 1 : max;
@@ -55,7 +55,7 @@ window.chartColors = {
             return min + (this._seed / 233280) * (max - min);
         },
 
-        numbers: function(config) {
+        numbers: function (config) {
             var cfg = config || {};
             var min = cfg.min || 0;
             var max = cfg.max || 1;
@@ -79,7 +79,7 @@ window.chartColors = {
             return data;
         },
 
-        labels: function(config) {
+        labels: function (config) {
             var cfg = config || {};
             var min = cfg.min || 0;
             var max = cfg.max || 100;
@@ -98,7 +98,7 @@ window.chartColors = {
             return values;
         },
 
-        months: function(config) {
+        months: function (config) {
             var cfg = config || {};
             var count = cfg.count || 12;
             var section = cfg.section;
@@ -113,18 +113,18 @@ window.chartColors = {
             return values;
         },
 
-        color: function(index) {
+        color: function (index) {
             return COLORS[index % COLORS.length];
         },
 
-        transparentize: function(color, opacity) {
+        transparentize: function (color, opacity) {
             var alpha = opacity === undefined ? 0.5 : 1 - opacity;
             return Color(color).alpha(alpha).rgbString();
         }
     };
 
     // DEPRECATED
-    window.randomScalingFactor = function() {
+    window.randomScalingFactor = function () {
         return Math.round(Samples.utils.rand(-100, 100));
     };
 
@@ -135,10 +135,17 @@ window.chartColors = {
     // Google Analytics
     /* eslint-disable */
     if (document.location.hostname.match(/^(www\.)?chartjs\.org$/)) {
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-28909194-3', 'auto');
         ga('send', 'pageview');
     }

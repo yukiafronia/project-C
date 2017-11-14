@@ -1,5 +1,4 @@
-google.maps.event.addDomListener(window, 'load', function()
-{
+google.maps.event.addDomListener(window, 'load', function () {
     var lat = 35.30233375318131;
     var lng = 139.48155283927917;
 
