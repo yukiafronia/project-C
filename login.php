@@ -9,65 +9,67 @@
 <body>
 <?php
 //ログイン情報の保存
+
+session_start();
+
+// 変数の初期化
+$sql = null;
+$stm = null;
+$dbh = null;
+
+// エラーメッセージの初期化
+$errorMessage = "";
+
 $user = 'root';
 $password = 'root';
-$dbName = 'test';
-$host = 'localhost';
-$dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
+$dsn = 'mysql:dbname=test;host=localhost';
 
 try {
-    // pdoを通して支持
-    $pdo = new pdo($dsn, $user, $password);
-    //$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-    //$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo 'データベース' . $dbName . 'に接続しました';
-    // $pdo = NULL;
+    //pdoを通して支持
+    $dbh = new PDO($dsn, $user, $password);
+    //var_dump($dbh);
+    //echo 'データベース' . $dbName . 'に接続しました';
 
     //SQL文の取り出し
-    $sql = 'select * from test';
-    //プリペアステート無効
-    //$stm = $pdo->prepare($sql);
-    //$stm->execute();
-    $stm = $pdo->query($sql);
-    //$result = $stm->fetchAll(PDO::FETCH_ASSOC);
-    //echo "otinpoS";
-    //空想配列を出して要素の取り出し
-    foreach ($stm as $row) {
-        echo "<th>", $row['username'], "</td>";
-        echo "<th>", $row['password'], "</td>";
+    $sql = "SELECT * FROM test WHERE ";
+    $stm = $dbh->query($sql);
+    //var_dump($stm);
+    foreach ($stm as $value) {
+        //echo 'ID: ' . $value['username'] . ' / PASS: ' . $value['password'];
     }
-} catch (Exception $e) {
-    //エラー処理
-    echo '<span class="error">エラーがありました</span><br>';
-    echo $e->getMessage();
-    exit();
+} catch (PDOException $e) {
+    print('Error;' . $e->getMessage());
+    die();
 }
+// 接続を閉じる
+$dbh = null;
+
 ?>
 <?php
 //ログイン処理
-$id = $_POST["ID"];
-$pw = $_POST["PW"];
-$Error = fales;
-if ($id == "koke9665" && $pw == "koke9665") {
-    $Error = true;
+$id = $_REQUEST['ID'];
+$pw = $_REQUEST["PW"];
+$flg = (boolval(false));
+if ($id === "koke9665" && $pw === "koke9665") {
+    $flg = true;
 } else {
-    $Error = false;
+    $flg = false;
 }
 ?>
-<?php if (isset($Error)): ?>
+<?php if ($flg === true): ?>
     <div class="login">
         <?php
         require_once("conect_DB.php");
-        echo 'ようこそ ', $id, ' 様、画面が変わりますのでしばらくお待ち下さい';
+        echo 'ようこそ ' . $id . ' 様、画面が変わりますのでしばらくお待ち下さい';
         ?>
     </div>
 <?php else: ?>
     <div class="login">
         <h1>IDまたはPWが間違っています</h1>
-        <form methot="POST" action="login.html">
+        <form method="post" action="login.html">
             <p>
                 <a href="login.html">
-                    <input type="submit" value="戻る" 　/>
+                    <input type="submit" value="戻る"/>
             </p>
         </form>
     </div>

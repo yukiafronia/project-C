@@ -7,23 +7,37 @@
 <body>
 <div>
     <?php
-    $user = 'testuser';
-    $password = 'koke9665';
-    $dbName = 'testdb';
-    $host = 'localhost:8889';
-    $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
+    //ログイン情報の保存
+
+    // 変数の初期化
+    $sql = null;
+    $stm = null;
+    $dbh = null;
+
+    $user = 'root';
+    $password = 'root';
+    $dsn = 'mysql:dbname=test;host=localhost';
 
     try {
-        $pdo = new PDO($dsn, $user, $password);
-        $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        echo "データベース{dbName}に接続しました";
-        $pdo = NULL;
-    } catch (Exception $e) {
-        echo '<span class="error">エラーがありました</span><br>';
-        echo $e->getMessage();
-        exit();
+        //pdoを通して支持
+        $dbh = new PDO($dsn, $user, $password);
+        //var_dump($dbh);
+        echo 'データベース' . $dbName . 'に接続しました';
+
+        //SQL文の取り出し
+        $sql = "SELECT * FROM test";
+        $stm = $dbh->query($sql);
+        //var_dump($stm);
+        foreach ($stm as $value) {
+            echo 'ID: ' . $value['username'] . ' / PASS: ' . $value['password'];
+        }
+    } catch (PDOException $e) {
+        print('Error;' . $e->getMessage());
+        die();
     }
+    // 接続を閉じる
+    $dbh = null;
+
     ?>
 </div>
 </body>
