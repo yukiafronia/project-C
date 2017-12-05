@@ -1,96 +1,113 @@
-﻿.amazonmenu ul{
-	font: normal 12px Verdana;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+﻿html {
+    background-color: #ffe690;
+}
+
+body {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 1px #999;
+    height: 90%;
+    position: relative;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+#demo {
+    margin-left: 20px;
+}
+
+.amazonmenu ul {
+    font: normal 12px Verdana;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 
-.amazonmenu ul li{
-	position: static;
+.amazonmenu ul li {
+    position: static;
 }
 
-.amazonmenu > ul{
-	background: white;
-	border: 1px solid gray;
-	border-radius: 5px;
-	width: 350px; 
-	height: 600px;
-	position: relative;
+.amazonmenu > ul {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 350px;
+    height: 600px;
+    position: relative;
 }
 
-.amazonmenu > ul li a{
-	color: black;
-	display: block;
-	overflow: auto;
-	padding: 10px 0;
-	position: relative;
-	text-decoration: none;
-	text-indent: 10px;
+.amazonmenu > ul li a {
+    color: black;
+    display: block;
+    overflow: auto;
+    padding: 10px 0;
+    position: relative;
+    text-decoration: none;
+    text-indent: 10px;
 }
 
-.amazonmenu > ul li.hassub > a::after{
-	border: 5px solid transparent;
-	border-left-color: gray;
-	content: '';
-	height: 0;
-	position: absolute;
-	right: 5px;
-	top: 35%;
-	width: 0;
+.amazonmenu > ul li.hassub > a::after {
+    border: 5px solid transparent;
+    border-left-color: gray;
+    content: '';
+    height: 0;
+    position: absolute;
+    right: 5px;
+    top: 35%;
+    width: 0;
 }
 
-.amazonmenu > ul li.hassub.selected > a::after{
-	border-left-color: red;
+.amazonmenu > ul li.hassub.selected > a::after {
+    border-left-color: red;
 }
 
-.amazonmenu ul li a:hover, .amazonmenu ul li.hassub.selected > a{
-    	background: white;
-	color: navy;
+.amazonmenu ul li a:hover, .amazonmenu ul li.hassub.selected > a {
+    background: white;
+    color: navy;
 }
 
-.amazonmenu ul li > div, .amazonmenu ul li > ul{
-	background: white;
-	border: 1px solid gray;
-	border-radius: 0 8px 8px 0;
-	box-shadow: 2px 2px 2px gray;
-	display: none;
-	font-weight: normal;
-	width: 350px;
-	height: 600px;
-	left: 100%;
-	padding: 10px;
-	position: absolute;
-	top: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	z-index: 1000;
-   
+.amazonmenu ul li > div, .amazonmenu ul li > ul {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 2px 2px 2px gray;
+    display: none;
+    font-weight: normal;
+    width: 350px;
+    height: 600px;
+    left: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1000;
+
 }
 
+@media screen and (max-width: 480px) {
+    .amazonmenu ul li > div, .amazonmenu ul li > ul {
+        left: 30px;
+    }
 
-
-
-@media screen and (max-width: 480px){
-    	.amazonmenu ul li > div, .amazonmenu ul li > ul{
-		left: 30px;
-	}
-
-	.amazonmenu > ul li.hassub.selected::after{ 
-		background: #eee;
-		content: '';
-		height: 100%;
-		left: 0;
-		opacity: .8;
-		pointer-events: none;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		z-index: 1;
-	}
+    .amazonmenu > ul li.hassub.selected::after {
+        background: #eee;
+        content: '';
+        height: 100%;
+        left: 0;
+        opacity: .8;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
 }
 
