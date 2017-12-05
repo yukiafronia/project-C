@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbfaa7fb-ea14-466f-a8da-fd489a4dd729" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itiran_dezain.css" afterPath="$PROJECT_DIR$/itiran_dezain.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sisetuyoyaku.html" afterPath="$PROJECT_DIR$/sisetuyoyaku.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,18 +68,9 @@
       <file leaf-file-name="sisetuyoyaku.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sisetuyoyaku.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138936">
-              <caret line="8173" column="17" lean-forward="true" selection-start-line="8173" selection-start-column="17" selection-end-line="8173" selection-end-column="17" />
+            <state relative-caret-position="136">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding>
-                <element signature="e#118043#118049#0" expanded="true" />
-                <element signature="e#118049#118055#0" expanded="true" />
-                <element signature="e#118055#118061#0" expanded="true" />
-                <element signature="e#118061#118067#0" expanded="true" />
-                <element signature="e#118067#118073#0" expanded="true" />
-                <element signature="e#118073#118079#0" expanded="true" />
-                <element signature="e#118079#118085#0" expanded="true" />
-                <element signature="e#118085#118091#0" expanded="true" />
-                <element signature="e#118091#118097#0" expanded="true" />
                 <element signature="e#118097#118103#0" expanded="true" />
                 <element signature="e#118103#118109#0" expanded="true" />
                 <element signature="e#118109#118115#0" expanded="true" />
@@ -89,7 +78,26 @@
                 <element signature="e#118121#118127#0" expanded="true" />
                 <element signature="e#118127#118133#0" expanded="true" />
                 <element signature="e#118133#118139#0" expanded="true" />
+                <element signature="e#118139#118145#0" expanded="true" />
+                <element signature="e#118145#118151#0" expanded="true" />
+                <element signature="e#118151#118157#0" expanded="true" />
+                <element signature="e#118157#118163#0" expanded="true" />
+                <element signature="e#118163#118169#0" expanded="true" />
+                <element signature="e#118169#118175#0" expanded="true" />
+                <element signature="e#118175#118181#0" expanded="true" />
+                <element signature="e#118181#118187#0" expanded="true" />
+                <element signature="e#118187#118193#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sisetuyoyaku.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sisetuyoyaku.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,11 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="itiran_dezain.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="itiran_dezain.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itiran_dezain.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShisetsuYoyaku.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShisetsuYoyaku.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="16" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -124,6 +142,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>demo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -162,8 +185,9 @@
         <option value="$PROJECT_DIR$/ShisetsuYoyaku.html" />
         <option value="$PROJECT_DIR$/conect_DB.php" />
         <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/sisetuyoyaku.html" />
         <option value="$PROJECT_DIR$/itiran_dezain.css" />
+        <option value="$PROJECT_DIR$/sisetuyoyaku.html" />
+        <option value="$PROJECT_DIR$/sisetuyoyaku.css" />
       </list>
     </option>
   </component>
@@ -174,7 +198,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="208" />
     <option name="y" value="-2" />
     <option name="width" value="1400" />
@@ -251,7 +275,7 @@
       <workItem from="1510646896425" duration="167000" />
       <workItem from="1510666469843" duration="124000" />
       <workItem from="1510689939509" duration="2243000" />
-      <workItem from="1512449684284" duration="1099000" />
+      <workItem from="1512449684284" duration="1963000" />
     </task>
     <task id="LOCAL-00001" summary="git追加">
       <created>1509540967903</created>
@@ -292,13 +316,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8924000" />
+    <option name="totallyTimeSpent" value="9788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="208" y="-2" width="1400" height="820" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28323698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -337,13 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/googlemap_example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StyleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -595,26 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShisetsuYoyaku.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ichiran.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -687,31 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sisetuyoyaku.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138936">
-          <caret line="8173" column="17" lean-forward="true" selection-start-line="8173" selection-start-column="17" selection-end-line="8173" selection-end-column="17" />
-          <folding>
-            <element signature="e#118043#118049#0" expanded="true" />
-            <element signature="e#118049#118055#0" expanded="true" />
-            <element signature="e#118055#118061#0" expanded="true" />
-            <element signature="e#118061#118067#0" expanded="true" />
-            <element signature="e#118067#118073#0" expanded="true" />
-            <element signature="e#118073#118079#0" expanded="true" />
-            <element signature="e#118079#118085#0" expanded="true" />
-            <element signature="e#118085#118091#0" expanded="true" />
-            <element signature="e#118091#118097#0" expanded="true" />
-            <element signature="e#118097#118103#0" expanded="true" />
-            <element signature="e#118103#118109#0" expanded="true" />
-            <element signature="e#118109#118115#0" expanded="true" />
-            <element signature="e#118115#118121#0" expanded="true" />
-            <element signature="e#118121#118127#0" expanded="true" />
-            <element signature="e#118127#118133#0" expanded="true" />
-            <element signature="e#118133#118139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/syubetu_yoyaku.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -724,6 +700,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShisetsuYoyaku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ichiran.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisetuyoyaku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#118097#118103#0" expanded="true" />
+            <element signature="e#118103#118109#0" expanded="true" />
+            <element signature="e#118109#118115#0" expanded="true" />
+            <element signature="e#118115#118121#0" expanded="true" />
+            <element signature="e#118121#118127#0" expanded="true" />
+            <element signature="e#118127#118133#0" expanded="true" />
+            <element signature="e#118133#118139#0" expanded="true" />
+            <element signature="e#118139#118145#0" expanded="true" />
+            <element signature="e#118145#118151#0" expanded="true" />
+            <element signature="e#118151#118157#0" expanded="true" />
+            <element signature="e#118157#118163#0" expanded="true" />
+            <element signature="e#118163#118169#0" expanded="true" />
+            <element signature="e#118169#118175#0" expanded="true" />
+            <element signature="e#118175#118181#0" expanded="true" />
+            <element signature="e#118181#118187#0" expanded="true" />
+            <element signature="e#118187#118193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisetuyoyaku.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
