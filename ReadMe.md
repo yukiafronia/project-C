@@ -29,6 +29,6 @@
  Visual Studioを利用し何とか時短できるよう目標とするが、文字コードの変更等を行わない限りどのエディタIDEを使用してもかまわない。  
 
 + 現在の進捗について (画像)  
- indexページ　 http://d.kuku.lu/9fc5f5fdac 
- loginページ　 http://d.kuku.lu/c2090f9dea 
+ indexページ　 http://d.kuku.lu/9fc5f5fdac  
+ loginページ　 http://d.kuku.lu/c2090f9dea  
  施設予約ページ http://d.kuku.lu/9dcbdc859a  
