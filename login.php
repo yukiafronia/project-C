@@ -16,26 +16,39 @@ session_start();
 $sql = null;
 $stm = null;
 $dbh = null;
+$id = $_REQUEST['ID'];
+$pw = $_REQUEST["PW"];
 
 // エラーメッセージの初期化
 $errorMessage = "";
 
 $user = 'root';
 $password = 'root';
-$dsn = 'mysql:dbname=test;host=localhost';
+$dsn = 'mysql:dbname=testdb;host=localhost';
 
 try {
-    //pdoを通して支持
+    //pdoを通して指示
     $dbh = new PDO($dsn, $user, $password);
     //var_dump($dbh);
-    //echo 'データベース' . $dbName . 'に接続しました';
+    echo 'データベース' . $dbn . 'に接続しました';
 
     //SQL文の取り出し
-    $sql = "SELECT * FROM test WHERE ";
+    $sql = "SELECT * FROM User";
     $stm = $dbh->query($sql);
-    //var_dump($stm);
+    // var_dump($stm);
     foreach ($stm as $value) {
-        //echo 'ID: ' . $value['username'] . ' / PASS: ' . $value['password'];
+      //  echo 'ID: ' . $value['Name'] . ' / PASS: ' . $value['Password'];
+      //ログイン処理
+        $id2 = $value['Name'];
+        $pw2 = $value['Password'];
+      $flg = (boolval(false));
+      if ($id == $id2 && $pw == $pw2) {
+          $flg = true;
+          break;
+      } else {
+          $flg = false;
+      }
+      var_dump($flg);
     }
 } catch (PDOException $e) {
     print('Error;' . $e->getMessage());
@@ -44,22 +57,12 @@ try {
 // 接続を閉じる
 $dbh = null;
 
-?>
-<?php
-//ログイン処理
-$id = $_REQUEST['ID'];
-$pw = $_REQUEST["PW"];
-$flg = (boolval(false));
-if ($id === "koke9665" && $pw === "koke9665") {
-    $flg = true;
-} else {
-    $flg = false;
-}
+
 ?>
 <?php if ($flg === true): ?>
     <div class="login">
         <?php
-        require_once("conect_DB.php");
+        // require_once("conect_DB.php");
         echo 'ようこそ ' . $id . ' 様、画面が変わりますのでしばらくお待ち下さい';
         ?>
     </div>
