@@ -2,171 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbfaa7fb-ea14-466f-a8da-fd489a4dd729" name="Default" comment="施設予約一覧内の、”ふるさとの森スポーツパーク体育館”が不具合。&#10;また、郡山庭球場の予約未実装は仕様">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/button.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/common_plugin_script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/common_script.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/haihai_thickbox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/backLink.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_105.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_115.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_125.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_135.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_145.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_155.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_165.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_175.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_185.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_195.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_215.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_225.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_235.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_245.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_255.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_265.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_275.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_75.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_75.gif.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_85.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/blue_btn_95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_105.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_115.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_125.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_135.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_145.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_155.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_165.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_175.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_185.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_195.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_215.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_225.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_235.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_245.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_255.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_265.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_275.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_75.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_75.gif.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_85.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/gray_btn_95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_105.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_115.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_125.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_135.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_145.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_155.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_165.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_175.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_185.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_195.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_215.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_225.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_235.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_245.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_255.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_265.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_275.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_75.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_75.gif.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_85.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/green_btn_95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/proC_img.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_105.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_115.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_125.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_135.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_145.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_155.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_165.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_175.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_185.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_195.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_215.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_225.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_235.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_245.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_255.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_265.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_275.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_75.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_75.gif.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_85.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/purple_btn_95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_105.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_115.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_125.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_135.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_145.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_155.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_165.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_175.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_185.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_195.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_215.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_225.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_235.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_245.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_255.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_265.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_275.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_75.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_75.gif.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_85.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/red_btn_95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_105.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_115.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_125.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_135.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_145.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_155.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_165.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_175.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_185.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_195.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_205.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_215.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_225.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_235.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_245.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_255.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_265.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_275.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_75.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_75.gif.1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_85.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/img_regist/yellow_btn_95.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/jquery.qtip.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/regist.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/regist.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/rks_login.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/thickbox.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ユーザ登録用画面/thickbox.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/How_to_use.html" afterPath="$PROJECT_DIR$/How_to_use.html" />
+      <change beforePath="$PROJECT_DIR$/ShisetsuYoyaku.html" afterPath="$PROJECT_DIR$/ShisetsuYoyaku.html" />
+      <change beforePath="$PROJECT_DIR$/syubetu_yoyaku.html" afterPath="$PROJECT_DIR$/syubetu_yoyaku.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -193,6 +33,9 @@
       <find>shise</find>
       <find>high</find>
       <find>width</find>
+      <find>href</find>
+      <find>inde</find>
+      <find>index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,7 +44,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/How_to_use.html" />
         <option value="$PROJECT_DIR$/ichiran.html" />
         <option value="$PROJECT_DIR$/calendar.js" />
         <option value="$PROJECT_DIR$/clndr.js" />
@@ -229,12 +71,14 @@
         <option value="$PROJECT_DIR$/javascript/googlemap.js" />
         <option value="$PROJECT_DIR$/clndr.css" />
         <option value="$PROJECT_DIR$/amazonmenu.js" />
-        <option value="$PROJECT_DIR$/ShisetsuYoyaku.html" />
         <option value="$PROJECT_DIR$/conect_DB.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/itiran_dezain.css" />
         <option value="$PROJECT_DIR$/sisetuyoyaku.html" />
         <option value="$PROJECT_DIR$/sisetuyoyaku.css" />
+        <option value="$PROJECT_DIR$/syubetu_yoyaku.html" />
+        <option value="$PROJECT_DIR$/ShisetsuYoyaku.html" />
+        <option value="$PROJECT_DIR$/How_to_use.html" />
       </list>
     </option>
   </component>
@@ -251,6 +95,9 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -266,6 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,8 +126,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,6 +189,7 @@
       <workItem from="1512966436463" duration="253000" />
       <workItem from="1513052969949" duration="297000" />
       <workItem from="1513053348317" duration="804000" />
+      <workItem from="1513245634298" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="git追加">
       <created>1509540967903</created>
@@ -389,7 +237,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13774000" />
+    <option name="totallyTimeSpent" value="14067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -485,38 +333,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/How_to_use.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clndr.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fare.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kind.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/purpose.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -591,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/googlemap_example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -633,13 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ichiran.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calendar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -661,7 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/conect_DB.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -673,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/require-form/regist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5559">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -697,38 +495,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chinko.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/googlemap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ichiran.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/syubetu_yoyaku.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="61" lean-forward="false" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -753,10 +523,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/syubetu_yoyaku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="330" column="26" lean-forward="false" selection-start-line="330" selection-start-column="26" selection-end-line="330" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sisetuyoyaku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="6261" column="26" lean-forward="false" selection-start-line="6261" selection-start-column="21" selection-end-line="6261" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShisetsuYoyaku.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/purpose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="68" column="48" lean-forward="false" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+        <state relative-caret-position="154">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -768,18 +597,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShisetsuYoyaku.html">
+    <entry file="file://$PROJECT_DIR$/ichiran.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="237" column="60" lean-forward="false" selection-start-line="237" selection-start-column="59" selection-end-line="237" selection-end-column="60" />
+        <state relative-caret-position="125">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sisetuyoyaku.html">
+    <entry file="file://$PROJECT_DIR$/How_to_use.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="8011" column="64" lean-forward="false" selection-start-line="8011" selection-start-column="64" selection-end-line="8011" selection-end-column="64" />
+        <state relative-caret-position="248">
+          <caret line="71" column="18" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlemap_example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlemap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinko.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="8" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/require-form/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
         </state>
       </provider>
