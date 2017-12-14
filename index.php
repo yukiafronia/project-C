@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+//セッションの開始
+session_start();
+?>
 <html>
 <head>
     <meta name="viewport" content="initial-scale=1.0">
@@ -6,10 +10,10 @@
     <title>公共施設予約システムへようこそ</title>
     <link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
     <script src="./javascript/jquery-3.2.1.min.js"></script>
-    <script src="./javascript/main.js"></script>
+    <script src="./javascript/main2.js"></script>
 </head>
 <body>
-<h1 class="title">郡山市　公共施設予約システム<div class="user">ようこそ　ゲスト様　ログインしてください。</div></h1>
+<h1 class="title">郡山市　公共施設予約システム<div class="user"><?php echo "ようこそ　".$_SESSION['name']."　様" ?></div></h1>
 <div class="detail">
     <h2 class="head"></h2>
     <div class="contents">
@@ -22,7 +26,7 @@
                 <img src="img/sousahouhou.png" onmouseover="this.src='img/sousahouhou.png'"
                      onmouseout="this.src='img/sousahouhou.png'" class="yoyaku"/>
             </a>
-            <input id="login"  type="button" value="ログイン画面"/>
+            <input id="login" class="bottom" type="button" value="マイページ"/>
         </div>
         <h4>システムからのお知らせ</h4>
         <p class="systeminformation_box">

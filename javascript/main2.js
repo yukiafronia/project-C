@@ -1,7 +1,7 @@
 $(function () {
 
     $(".bottom").on('click', function () {
-        alert("ログインしてください");
+
         $(".detail").animate({
                 opacity: 0
             },
@@ -18,7 +18,7 @@ $(function () {
             500
         );
         setTimeout(function () {
-            window.location.href = "./login.html";
+            window.location.href = "./ShisetsuYoyaku.html";
         }, 600);
     });
 
@@ -46,10 +46,11 @@ $(function () {
     });
 
     $("#login").on('click', function () {
+
         $(".detail").animate({
                 opacity: 0
             },
-            500
+            700
         );
         $({deg: 0}).animate({deg: 360}, {
                 duration: 1300,
@@ -62,7 +63,7 @@ $(function () {
             500
         );
         setTimeout(function () {
-            window.location.href = "./login.html";
+            window.location.href = "./mypage.php";
         }, 600);
 
     });

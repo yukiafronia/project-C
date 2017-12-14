@@ -9,7 +9,6 @@
 <body>
 <?php
 //ログイン情報の保存
-
 session_start();
 
 // 変数の初期化
@@ -38,17 +37,21 @@ try {
     // var_dump($stm);
     foreach ($stm as $value) {
       //  echo 'ID: ' . $value['Name'] . ' / PASS: ' . $value['Password'];
+      
       //ログイン処理
         $id2 = $value['Name'];
         $pw2 = $value['Password'];
       $flg = (boolval(false));
       if ($id == $id2 && $pw == $pw2) {
+        $_SESSION['name'] = $id2;
+        $_SESSION['pw'] = $pw2;
           $flg = true;
           break;
       } else {
           $flg = false;
       }
       var_dump($flg);
+
     }
 } catch (PDOException $e) {
     print('Error;' . $e->getMessage());
@@ -63,8 +66,10 @@ $dbh = null;
     <div class="login">
         <?php
         // require_once("conect_DB.php");
-        echo 'ようこそ ' . $id . ' 様、画面が変わりますのでしばらくお待ち下さい';
+        // var_dump ($_SESSION['id']);
+        echo 'ようこそ ' . $_SESSION['name'] . ' 様、画面が変わりますのでしばらくお待ち下さい';
         ?>
+        <p><a href=index.php>戻らない場合はこちらをクリックしてください</a></p>
     </div>
 <?php else: ?>
     <div class="login">
