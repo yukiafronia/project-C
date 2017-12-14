@@ -1,0 +1,23 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#e8bb31, #ffffff);
+}
+.yoyaku{
+  background-color: white;
+box-shadow: inset 0px 0px 1px 1px;
+border-radius: 10px;
+position: relative;
+height: 7em;
+overflow: auto;
+}
+.name{
+  margin: 10px;
+font-size: 250%;
+outline: aqua;
+/* text-decoration: overline; */
+text-shadow: 3px 3px 3px #636363;
+text-align: center;
+}
