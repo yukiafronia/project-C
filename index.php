@@ -38,7 +38,6 @@
                     <img src="img/01_gr.png">
                     <img src="img/01_bl.png"><br>
                     Logout
-                    <!-- <?php session_destroy();?> -->
                 </span>
             </button>
             <button class = "bottom2">

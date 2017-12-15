@@ -39,19 +39,41 @@ session_start();
         //var_dump($dbh);
         echo 'データベース' . $dbn . 'に接続しました';
 
-        //SQL文の取り出し
+        // SQL文の取り出し
         $sql = "INSERT INTO `yoyakujoho` (`sisetu`,`yoyakusya`, `year`,`month`,`day`,`time`,`place`) VALUES ('$sisetu','$yoyakusya', '$year', '$month', '$day', '$time', '$place');";
 
         $stm = $dbh->query($sql);
         // var_dump($stm);
         foreach ($stm as $value) {
           //  echo 'ID: ' . $value['Name'] . ' / PASS: ' . $value['Password'];
-
         }
+
+          //SQL文の取り出し
+          $sql = "SELECT * FROM `User` WHERE `Name` LIKE '$yoyakusya'";
+
+          $stm = $dbh->query($sql);
+          foreach ($stm as $value) {
+              echo 'adress: ' . $value['mall_adress'];
+              mb_language("Japanese");
+              mb_internal_encoding("UTF-8");
+
+              $to      = $value['mall_adress'];
+              $title = '予約完了のお知らせ';
+              $message = '本日'.$sisetu.$year.$month.$day.$time.$place.'にて予約が完了しました。キャンセルする場合はお問い合わせの方にお願いします。';
+              $headers = 'From: b6p31080@shonan.bunkyo.ac.jp' . "\r\n";
+
+              if(mb_send_mail($to, $title, $message, $headers)){
+                echo ("メールが送られました");
+              }else{
+                echo ("メールを送るのを失敗しました。");
+              }
+          }
     } catch (PDOException $e) {
         print('Error;' . $e->getMessage());
         die();
     }
+
+
     // 接続を閉じる
     $dbh = null;
 

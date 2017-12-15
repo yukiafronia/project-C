@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+</head>
+<body>
+<div class="login">
+    <h1>新規会員登録画面</h1>
+    <form method="post" action="new_acount.php">
+        <div class="submit">
+            <p>
+                <label for="ID_name">ID</label><br>
+                <input type="text" name="ID" placeholder="新規IDを入力してください" autofocus required>
+            </p>
+            <p>
+                <label>パスワード</label><br>
+                <input type="password" name="PW" placeholder="新規PWを入力してください" required>
+            </p>
+            <p>
+                <label>メールアドレス</label><br>
+                <input type="text" name="Adress" placeholder="メールアドレスを入力してください" required>
+            </p>
+            <p><input type="submit" value="登録">
+            </p>
+        </div>
+    </form>
+</div>
+</body>
+</html>

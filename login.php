@@ -60,7 +60,6 @@ try {
 // 接続を閉じる
 $dbh = null;
 
-
 ?>
 <?php if ($flg === true): ?>
     <div class="login">
