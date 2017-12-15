@@ -37,7 +37,7 @@ try {
     // var_dump($stm);
     foreach ($stm as $value) {
       //  echo 'ID: ' . $value['Name'] . ' / PASS: ' . $value['Password'];
-      
+
       //ログイン処理
         $id2 = $value['Name'];
         $pw2 = $value['Password'];
