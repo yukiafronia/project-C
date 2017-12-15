@@ -1,5 +1,104 @@
 $(function () {
 
+    $(".bottom").on('click', function () {
+        $(".detail").animate({
+                opacity: 0
+            },
+            500
+        );
+        $({deg: 0}).animate({deg: 360}, {
+                duration: 1300,
+                progress: function () {
+                    $('.detail').css({
+                        transform: 'rotateY(' + this.deg + 'deg)'
+                    });
+                },
+            },
+            500
+        );
+        setTimeout(function () {
+            window.location.href = "./ShisetsuYoyaku.html";
+        }, 600);
+    });
+
+    $(".bottom3").on('click', function () {
+        $(".detail").animate({
+                opacity: 0
+            },
+            500
+        );
+        $({deg: 0}).animate({deg: 360}, {
+                duration: 1300,
+                progress: function () {
+                    $('.detail').css({
+                        transform: 'rotateY(' + this.deg + 'deg)'
+                    });
+                },
+            },
+            500
+        );
+        setTimeout(function () {
+            window.location.href = "./mypage.php";
+        }, 600);
+    });
+
+    $(".bottom2").on('click', function () {
+
+        $(".detail").animate({
+                opacity: 0
+            },
+            500
+        );
+        $({deg: 0}).animate({deg: 360}, {
+                duration: 1300,
+                progress: function () {
+                    $('.detail').css({
+                        transform: 'rotateY(' + this.deg + 'deg)'
+                    });
+                },
+            },
+            500
+        );
+        setTimeout(function () {
+            window.location.href = "./How_to_use.html";
+        }, 600);
+
+    });
+
+    $("#logout").on('click', function () {
+        $(".detail").animate({
+                opacity: 0
+            },
+            500
+        );
+        $({deg: 0}).animate({deg: 360}, {
+                duration: 1300,
+                progress: function () {
+                    $('.detail').css({
+                        transform: 'rotateY(' + this.deg + 'deg)'
+                    });
+                },
+            },
+            500
+        );
+        setTimeout(function () {
+            window.location.href = "./index.html";
+        }, 600);
+
+    });
+
+
+    $(window).on('load', function () {
+        $(".detail").animate({
+                opacity: 1
+            },
+            500
+        );
+    });
+});
+
+$(function () {
+
     $('.page-header').each(function () {
 
         var $window = $(window), // Window オブジェクト
@@ -113,80 +212,32 @@ $(function () {
 
 });
 
-$(function () {
+$(function(){
+    //
+    var duration = 300;
 
-    $(".bottom").on('click', function () {
-        $(".detail").animate({
-                opacity: 0
-            },
-            500
-        );
-        $({deg: 0}).animate({deg: 360}, {
-                duration: 1300,
-                progress: function () {
-                    $('.detail').css({
-                        transform: 'rotateY(' + this.deg + 'deg)'
-                    });
-                },
-            },
-            500
-        );
-        setTimeout(function () {
-            window.location.href = "./ShisetsuYoyaku.html";
-        }, 600);
-    });
-
-    $(".bottom2").on('click', function () {
-
-        $(".detail").animate({
-                opacity: 0
-            },
-            500
-        );
-        $({deg: 0}).animate({deg: 360}, {
-                duration: 1300,
-                progress: function () {
-                    $('.detail').css({
-                        transform: 'rotateY(' + this.deg + 'deg)'
-                    });
-                },
-            },
-            500
-        );
-        setTimeout(function () {
-            window.location.href = "./How_to_use.html";
-        }, 600);
-
-    });
-
-    $("#login").on('click', function () {
-        $(".detail").animate({
-                opacity: 0
-            },
-            500
-        );
-        $({deg: 0}).animate({deg: 360}, {
-                duration: 1300,
-                progress: function () {
-                    $('.detail').css({
-                        transform: 'rotateY(' + this.deg + 'deg)'
-                    });
-                },
-            },
-            500
-        );
-        setTimeout(function () {
-            window.location.href = "./mypage.php";
-        }, 600);
-
+    // buttons2 ----------------------------------------
+    $('#buttons2 button').each(function(index){
+        //var pos = Math.random() * 80 - 40;
+        var pos = index * 40 - 40;
+        $(this).css('top', pos);
+    })
+    .on('mouseover', function(){
+        var $btn = $(this).stop(true).animate({
+            backgroundColor: '#faee00',
+            color: '#000'
+        }, duration);
+        $btn.find('img:first-child').stop(true).animate({opacity: 0}, duration);
+        $btn.find('img:nth-child(2)').stop(true).animate({opacity: 1}, duration);
+    })
+    .on('mouseout', function(){
+        var $btn = $(this).stop(true).animate({
+            backgroundColor: '#fff',
+            color: '#01b169',
+        }, duration);
+        $btn.find('img:first-child').stop(true).animate({opacity: 1}, duration);
+        $btn.find('img:nth-child(2)').stop(true).animate({opacity: 0}, duration);
     });
 
 
-    $(window).on('load', function () {
-        $(".detail").animate({
-                opacity: 1
-            },
-            500
-        );
-    });
 });
