@@ -3,14 +3,40 @@
 }
 
 body {
-    background: linear-gradient(#e8bb31, #ffffff);
+    background: linear-gradient(#656565, #ffffff);
 }
 
 .login {
-    margin: 64px auto 0 auto;
-    box-shadow: 5px 5px 10px #504e4e;
-    padding: 32px;
-    max-width: 800px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.8);
+  margin: 64px auto 0 auto;
+  box-shadow: 5px 5px 10px #504e4e;
+  padding: 2px;
+  max-width: 800px;
+  /* border-radius: 16px; */
+  background: rgba(255, 255, 255, 0.8);
+}
+.login2{
+  background-color: #333333;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 25px;
+}
+
+.submit{
+  zoom:1.3;
+  margin-left: 40px;
+}
+
+.background-img{
+  background-image: url(img/urban.jpg);
+width: 100%;
+min-height: 100%;
+position: absolute;
+/* min-height: 100%; */
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+transform: translate(-8px,-7px);
+background-color: #464646;
+opacity: 0.5;
 }

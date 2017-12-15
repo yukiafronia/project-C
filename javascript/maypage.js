@@ -61,7 +61,7 @@ $(function () {
             500
         );
         setTimeout(function () {
-            window.location.href = "./mypage.php";
+            window.location.href = "./login.html";
         }, 600);
 
     });
