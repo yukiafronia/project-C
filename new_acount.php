@@ -60,7 +60,9 @@ try {
 $dbh = null;
 
 ?>
+<font color=white>
 <div class="login">
+  <div class="login2">
     <h1>登録が完了しました。</h1>
     <form method="post" action="login.html">
         <p>
@@ -68,6 +70,8 @@ $dbh = null;
             <input type="submit" value="戻る"/>
         </p>
     </form>
+  </div>
 </div>
+</font>
 </body>
 </html>

@@ -4,6 +4,10 @@
 
 body {
     background: linear-gradient(#656565, #ffffff);
+    background-image: url(img/urban.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .login {
@@ -26,7 +30,7 @@ body {
   margin-left: 40px;
 }
 
-.background-img{
+/*.background-img{
   background-image: url(img/urban.jpg);
 width: 100%;
 min-height: 100%;
@@ -39,4 +43,4 @@ background-attachment: fixed;
 transform: translate(-8px,-7px);
 background-color: #464646;
 opacity: 0.5;
-}
+}*/

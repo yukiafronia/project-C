@@ -47,7 +47,7 @@
                   How to use
               </span>
           </button>
-          <button class = "bottom">
+          <button class = "bottom3">
               <span>
                   <img src="img/reservation.png">
                   <img src="img/reservation_hanten.png"><br>

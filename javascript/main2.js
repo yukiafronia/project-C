@@ -17,7 +17,7 @@ $(function () {
             500
         );
         setTimeout(function () {
-            window.location.href = "./ShisetsuYoyaku.html";
+            window.location.href = "./mypage.php";
         }, 600);
     });
 
@@ -38,7 +38,7 @@ $(function () {
             500
         );
         setTimeout(function () {
-            window.location.href = "./mypage.php";
+            window.location.href = "./ShisetsuYoyaku.html";
         }, 600);
     });
 
