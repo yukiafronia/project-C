@@ -24,7 +24,7 @@ session_start();
     $time = $_REQUEST["time"];
     $place = $_REQUEST["place"];
 
-    var_dump($sisetu);
+    //var_dump($sisetu);
 
     // エラーメッセージの初期化
     $errorMessage = "";
@@ -37,7 +37,7 @@ session_start();
         //pdoを通して指示
         $dbh = new PDO($dsn, $user, $password);
         //var_dump($dbh);
-        echo 'データベース' . $dbn . 'に接続しました';
+      //  echo 'データベース' . $dbn . 'に接続しました';
 
         // SQL文の取り出し
         $sql = "INSERT INTO `yoyakujoho` (`sisetu`,`yoyakusya`, `year`,`month`,`day`,`time`,`place`) VALUES ('$sisetu','$yoyakusya', '$year', '$month', '$day', '$time', '$place');";
@@ -53,7 +53,7 @@ session_start();
 
           $stm = $dbh->query($sql);
           foreach ($stm as $value) {
-              echo 'adress: ' . $value['mall_adress'];
+            //  echo 'adress: ' . $value['mall_adress'];
               mb_language("Japanese");
               mb_internal_encoding("UTF-8");
 

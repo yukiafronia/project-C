@@ -29,7 +29,7 @@ try {
     //pdoを通して指示
     $dbh = new PDO($dsn, $user, $password);
     //var_dump($dbh);
-    echo 'データベース' . $dbn . 'に接続しました';
+  //  echo 'データベース' . $dbn . 'に接続しました';
 
     //SQL文の取り出し
     $sql = "SELECT * FROM User";
