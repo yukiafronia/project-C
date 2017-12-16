@@ -1,9 +1,8 @@
-�T�C�g�̊���
-	1. ���O�C�������isession�֐���Ԉێ� or html�ł��ׂĂ��I��点��j
-	�f�[�^�[�x�[�X
-	�q�y�[�W����g�b�v�y�[�W�ɖ߂鏈��
-	css��K�������̂ɕς���@��MI�`�F�b�J�[�Œ��ׂ���B
-	amazon���j���[�̃f�U�C���̍X�V
+サイトの完成
+	1. ログイン処理（session関数状態維持 or htmlですべてを終わらせる）
+	データーベース
+	子ページからトップページに戻る処理
+	cssを適したものに変える　→MIチェッカーで調べられる。
+	amazonメニューのデザインの更新
 
-�|�X�^�[
-
+ポスター
