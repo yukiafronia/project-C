@@ -52,7 +52,7 @@ session_start();
           $sql = "SELECT * FROM `User` WHERE `Name` LIKE '$yoyakusya'";
 
           $stm = $dbh->query($sql);
-          foreach ($stm as $value) {
+           foreach ($stm as $value) {
             //  echo 'adress: ' . $value['mall_adress'];
               mb_language("Japanese");
               mb_internal_encoding("UTF-8");
@@ -67,7 +67,7 @@ session_start();
               }else{
                 echo ("メールを送るのを失敗しました。");
               }
-          }
+           }
     } catch (PDOException $e) {
         print('Error;' . $e->getMessage());
         die();
