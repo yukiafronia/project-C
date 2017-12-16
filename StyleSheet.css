@@ -391,7 +391,7 @@ h2.head {
 }
 
 .detail {
-    opacity: 0;
+    /*opacity: 0;*/
 }
 
 .contents {
