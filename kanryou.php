@@ -31,7 +31,7 @@ session_start();
 
     $user = 'root';
     $password = 'root';
-    $dsn = 'mysql:dbname=testdb;host=localhost';
+    $dsn = 'mysql:dbname=koke9665;host=localhost';
 
     try {
         //pdoを通して指示
