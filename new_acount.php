@@ -24,7 +24,7 @@ $errorMessage = "";
 
 $user = 'koke9665';
 $password = 'proj079';
-$dsn = 'mysql:dbname=testdb;host=localhost';
+$dsn = 'mysql:dbname=koke9665;host=localhost';
 
 try {
     //pdoを通して指示
