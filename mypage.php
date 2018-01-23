@@ -26,8 +26,8 @@ session_start();
     // エラーメッセージの初期化
     $errorMessage = "";
 
-    $user = 'root';
-    $password = 'root';
+    $user = 'koke9665';
+    $password = 'proj079';
     $dsn = 'mysql:dbname=koke9665;host=localhost';
 
     try {
